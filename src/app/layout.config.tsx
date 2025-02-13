@@ -10,11 +10,11 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 export const baseOptions: BaseLayoutProps = {
   nav: {
     // can be JSX too!
-    title: 'My App',
+    title: 'Resurface',
   },
   links: [
     {
-      text: 'Documentation',
+      text: 'Docs',
       url: '/docs',
       active: 'nested-url',
     },
