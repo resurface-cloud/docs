@@ -9,6 +9,12 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  },
   "dependencies": {
     "@astrojs/starlight": "^0.34.1",
     "astro": "^5.6.1",
